@@ -1,0 +1,35 @@
+﻿<Window x:Class="Lista1Reborn.l2q2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lista1Reborn"
+        mc:Ignorable="d"
+        Title="l2q2" Height="450" Width="800" Background="#464646">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3" Content="Wyjdź" Background="#323232" Foreground="White" Click="Button_Click" BorderThickness="0" Margin="10" FontSize="25"/>
+        <Button Grid.Column="0" Grid.Row="3" Content="Reset" Background="#323232" Foreground="White" Click="Button_Click_1" BorderThickness="0" Margin="10" FontSize="25"/>
+        <!--Guziki do gry -->
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="0" Grid.Column="0" Name="c1" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="0" Grid.Column="1" Name="c2" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="0" Grid.Column="2" Name="c3" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="1" Grid.Column="0" Name="c4" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="1" Grid.Column="1" Name="c5" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="1" Grid.Column="2" Name="c6" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="2" Grid.Column="0" Name="c7" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="2" Grid.Column="1" Name="c8" Click="playerClick"/>
+        <Button Background="#323232" Foreground="White" BorderThickness="0" Margin="10" Grid.Row="2" Grid.Column="2" Name="c9" Click="playerClick"/>
+
+    </Grid>
+</Window>
